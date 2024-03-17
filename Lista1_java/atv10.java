@@ -9,13 +9,12 @@ public class atv10{
         String senha1=tec. nextLine();
 
         do{
-        System.out.print("Digite a senha novamente: ");
-        senha=tec.nextLine();
-        if(senha.equals(senha1)){
-            senhaValida=true;
-        }
-                    
-                    
+            System.out.print("Digite a senha novamente: ");
+            senha=tec.nextLine();
+            if(senha.equals(senha1)){
+                senhaValida=true;
+            }
+            
         }while(!senhaValida);
         
         System.out.print("Seja bem vindo");
