@@ -1,6 +1,6 @@
 package atividades_java;
 import java.util.Scanner;
-public class atv10{
+public class atv_10{
     public static void main(String[] args){
         Scanner tec= new Scanner(System.in);
         String senha;
